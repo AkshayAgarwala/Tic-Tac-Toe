@@ -1,0 +1,22 @@
+.board {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+
+.row {
+    width: 100%;
+    display: inline-block;
+}
+
+.box {
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 1px;
+    text-align: center;
+    font-size: 100px;
+}

@@ -1,7 +1,16 @@
-.body {
-    background-color: orange;   
+body {
+    /*background-color: magenta;*/
+    font-family: Arial;
+}
+h1 {
+    text-align: center;
 }
 
+.notification {
+    text-align: center;
+    font-size: 30px;
+    color: #00FFF1;
+}
 .board {
     width: 400px;
     height: 400px;
@@ -28,5 +37,19 @@
 
 .has-hover:hover {
     border: 3px solid black;
+}
 
+.winner {
+    background: red;
+    /*background: #FF4847;*/
+}
+
+.loser {
+    opacity: .2
+}
+
+#reset {
+    position: absolute;
+    bottom: 7%;
+    left: 46%;
 }

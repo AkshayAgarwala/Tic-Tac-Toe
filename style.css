@@ -1,3 +1,7 @@
+.body {
+    background-color: orange;   
+}
+
 .board {
     width: 400px;
     height: 400px;
@@ -19,4 +23,10 @@
     margin: 1px;
     text-align: center;
     font-size: 100px;
+
+}
+
+.has-hover:hover {
+    border: 3px solid black;
+
 }

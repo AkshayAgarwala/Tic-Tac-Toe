@@ -32,8 +32,6 @@ function playerClickHandler() {
     }
 }
 
-// $("#reset").click(resetHandler);
-
 function resetHandler() {
     $(".box").text("-").addClass('has-hover').removeClass('winner').removeClass('loser');
     initGame(); // initialize the game

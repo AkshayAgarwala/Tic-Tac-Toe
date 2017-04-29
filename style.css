@@ -1,5 +1,6 @@
 body {
     /*background-color: magenta;*/
+    background-color: #DFDCA3;
     font-family: Arial;
 }
 h1 {
@@ -9,7 +10,7 @@ h1 {
 .notification {
     text-align: center;
     font-size: 30px;
-    color: #00FFF1;
+    color: #0B7FFF;
 }
 .board {
     width: 400px;

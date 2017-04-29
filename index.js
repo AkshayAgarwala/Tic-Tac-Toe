@@ -22,7 +22,12 @@ function playerClickHandler() {
                 }
                 else $("#box"+i).addClass('loser');
             } // for loop
-        }
+        } // if winner
+        else if (isTied()) {
+            $(".notification").text("The game ends in a tie!");
+            $("#reset").css("opacity", "1").bind("click", resetHandler);
+            $(".box").addClass('loser');
+        } // is Tied
         else changePlayer();
     }
 }
@@ -83,5 +88,14 @@ function checkBoxes(a, b, c) {
             winningSet = [a, b, c];
             return true;
     }
+    else return false;
+}
+
+function isTied() {
+    var current = $(".box").text();
+    for (var t = 0; t < current.length; t++) {
+        if (current.charAt(t) === "-") return false;
+    }
+    if (!isWinner()) return true;
     else return false;
 }

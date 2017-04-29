@@ -27,7 +27,7 @@ function playerClickHandler() {
             $(".notification").text("The game ends in a tie!");
             $("#reset").css("opacity", "1").bind("click", resetHandler);
             $(".box").addClass('loser');
-        } // is Tied
+        } // if Tied
         else changePlayer();
     }
 }

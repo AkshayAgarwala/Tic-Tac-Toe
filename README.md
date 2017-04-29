@@ -6,7 +6,7 @@ The game of Tic-Tac-Toe is an exciting two player game. Players take turns marki
 
 [Follow the steps here to clone this repository.](https://help.github.com/articles/cloning-a-repository/)
 
-Navigate to the directory where the clone directory was made and open `index.html` by double clicking the file.
+Navigate to where the clone directory was made and open `index.html` by double clicking the file.
 
 Alternative method: Open a browser of your choice and in the address bar enter `file://<absolute-path-to-index.html>` where `<absolute-path-to-index.html>` is the actual path.
 

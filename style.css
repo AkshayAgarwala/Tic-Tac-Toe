@@ -1,5 +1,5 @@
 body {
-    background-color: #DFDCA3;
+    background-color: #99FFD9;
     font-family: Arial;
 }
 
@@ -17,7 +17,7 @@ h1 {
     width: 400px;
     height: 400px;
     position: absolute;
-    left: 35%;
+    left: 37%;
     top: 30%;
 }
 
@@ -38,7 +38,7 @@ h1 {
 }
 
 .has-hover:hover {
-    border: 3px solid black;
+    border: 3px solid #00FF08;
 }
 
 .winner {
@@ -52,5 +52,5 @@ h1 {
 #reset {
     position: absolute;
     bottom: 7%;
-    left: 46%;
+    left: 48%;
 }
